@@ -1,5 +1,5 @@
 title: $:/plugins/abrooke-notes/s3-saver/readme
 
-Set your s3 bucket settings in [[$:/plugins/$:/plugins/abrooke-notes/s3-saver/s3-saver/settings]]
+Set your s3 bucket settings in [[$:/plugins/abrooke-notes/s3-saver/settings]]
 
 You must save your wiki manually after the options are set for the first time.
