@@ -1,5 +1,5 @@
 /*\
-title: $:/plugins/brooksn/s3-saver/save.js
+title: $:/plugins/abrooke-notes/s3-saver/save.js
 type: application/javascript
 module-type: saver
 
@@ -17,7 +17,7 @@ TiddlyWiki5 plugin to save the document to S3.
   Select the appropriate saver module and set it up
   */
 
-  require("$:/plugins/brooksn/s3-saver/s3-min.js");
+  require("$:/plugins/abrooke-notes/s3-saver/s3-min.js");
 
   function awsConfigFromString(str) {
     var result = {}
@@ -50,7 +50,7 @@ TiddlyWiki5 plugin to save the document to S3.
   }
 
   var s3Up = function(wiki) {
-    var s3SettingsTiddler = "$:/plugins/brooksn/s3-saver/settings";
+    var s3SettingsTiddler = "$:/plugins/abrooke-notes/s3-saver/settings";
     var settingsString = $tw.wiki.getTiddlerText(s3SettingsTiddler) || '';
     this.awsSettings = awsConfigFromString(settingsString);
     this.wiki = wiki;
