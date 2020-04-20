@@ -1,8 +1,8 @@
-title: $:/plugins/brooksn/s3-saver/settings
+title: $:/plugins/$:/plugins/abrooke-notes/s3-saver/s3-saver/settings
 
 """
-accessKeyId: AKIAIOSFODNN7EXAMPLE
-secretAccessKey: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-bucket: my-tiddlywiki-bucket
-fileName: awt.html
+accessKeyId: 
+secretAccessKey: 
+bucket: 
+fileName: 
 """
